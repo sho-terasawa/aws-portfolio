@@ -1,0 +1,20 @@
+<h1>Symfony Memo App</h1>
+
+<div>
+    Hello, {{ name }}!
+</div>
+
+<p>
+    <a href="/memo/new">新しいメモを登録</a>
+</p>
+
+<h2>Memo</h2>
+
+<ul>
+{% for item in items %}
+    <li>{{ item.name }}<br>説明：{{ item.description }}</li>
+    <a href="/memo/delete/{{ item.id }}">削除</a>
+{% else %}
+    <li>メモはありません。</li>
+{% endfor %}
+</ul>
