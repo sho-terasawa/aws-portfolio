@@ -1,2 +1,5 @@
 ssh_allowed_cidr = "XXX.XXX.XXX.XXX/32"
 ssh_key = "XXX"
+db_username = "XXXXXXXX"
+db_password = "XXXXXXXX"
+acm_certificate_arn = "XXX"

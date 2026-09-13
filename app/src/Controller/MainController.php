@@ -18,7 +18,7 @@ class MainController extends AbstractController
             ->findAll();
 
         return $this->render('index.html.twig', [
-            'name' => '名前',
+            'name' => 'User',
             'items' => $items,
         ]);
     }
