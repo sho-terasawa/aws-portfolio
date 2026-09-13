@@ -78,11 +78,12 @@ RDSでは、EC2のSecurity GroupからのTCP :1521のみを許可しています
   - Doctrine ORM
   - Twig
 - Database
-  - Oracle Database SE2
+  - Oracle Database 19c SE2
   - SQLite（ローカル検証）
 - Infrastructure as Code
   - Terraform
 
+![php、symfonyのversion](./images/php_symfony_version.jpg)
 
 ## 動作確認
 
